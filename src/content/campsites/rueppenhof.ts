@@ -71,7 +71,7 @@ const rueppenhof: CampsiteConfig = {
   saison: { von: "April", bis: "Oktober" },
 
   hero: {
-    aerial: { src: `${IMG}/gallery-b28abd86e5.webp`, alt: "Zelte auf der Wiese am Camping Rueppenhof mit Blick auf die Tiroler Berge" },
+    aerial: { src: `${IMG}/gallery-0bd1135eb5.webp`, alt: "Luftaufnahme des Camping Rueppenhof direkt am Thiersee mit Tiroler Bergen im Hintergrund" },
   },
 
   camping: {
@@ -82,7 +82,7 @@ const rueppenhof: CampsiteConfig = {
       {
         title: "Stellplätze mit Bergblick",
         text: "26 Dauer- und 38 Urlauberstellplätze mit Strom, sonnig oder halbschattig — und nie weiter als 100 Meter vom See.",
-        image: { src: `${IMG}/gallery-0bd1135eb5.webp`, alt: "Luftaufnahme des Camping Rueppenhof direkt am Thiersee mit Stellplätzen und Tiroler Bergen" },
+        image: { src: `${IMG}/gallery-b28abd86e5.webp`, alt: "Zelte auf der Campingwiese des Rueppenhof mit Blick auf das Thierseer Bergpanorama" },
       },
       {
         title: "Echtes Campingleben",
@@ -147,13 +147,13 @@ const rueppenhof: CampsiteConfig = {
     intro: "Wähle Zeitraum und Personen — Familie Atzl meldet sich persönlich mit deiner Verfügbarkeit zurück.",
     pricesArePlaceholder: false,
     priceNote:
-      "Unverbindliche Richtwerte (Vor- und Nachsaison) · zzgl. Ortstaxe € 3,50 und Umweltbeitrag € 2,00 pro Person/Nacht, Strom nach Verbrauch.",
+      "Richtwert Vor-/Nachsaison: Platz (€ 7–12) + Person (€ 8–9,50 je nach Saison) · zzgl. Ortstaxe € 3,50 und Umweltbeitrag € 2,00 pro Person/Nacht, Strom nach Verbrauch.",
     highlight: {
       title: "Eigener Badestrand",
       text: "Die Badegebühr am platzeigenen Strand ist bei uns immer inklusive.",
     },
     categories: [
-      { id: "stellplatz", label: "Stellplatz", perNight: 23, perExtraGuest: 8 },
+      { id: "stellplatz", label: "Stellplatz", perNight: 20, perExtraGuest: 8 },
       { id: "schlaffass", label: "Schlaffass", perNight: 40, perExtraGuest: 8 },
       { id: "fewo", label: "Ferienwohnung", perNight: 88, perExtraGuest: 15 },
     ],
